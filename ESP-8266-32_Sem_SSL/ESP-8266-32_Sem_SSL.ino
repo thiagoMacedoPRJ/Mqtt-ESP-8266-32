@@ -6,21 +6,21 @@ bool ws;
 bool wu;
 
 //WiFi
-const char* SSID = "Dois irmãos";     // SSID / nome da rede WiFi que deseja se conectar
-const char* PASSWORD = "gdeimvwg";   // Senha da rede WiFi que deseja se conectar
+const char* SSID = "XXXXXXXXXXX";     // SSID Nome da Rede WiFi que deseja se conectar
+const char* PASSWORD = "XXXXXXXXX";   // Senha da rede WiFi que deseja se conectar
 WiFiClient wifiClient;                        
 
 
  
 //MQTT Server
-const char* BROKER_MQTT = "broker.mqtt-dashboard.com"; //URL do broker MQTT que se deseja utilizar
+const char* BROKER_MQTT = "XXXXXXXXXXXXXXXXXXXXXX"; //URL do broker MQTT que se deseja utilizar
 int BROKER_PORT = 1883;                      // Porta do Broker MQTT
 
 
 
 
-#define ID_MQTT  "ROUVERmk1"             //Informe um ID unico e seu. Caso sejam usados IDs repetidos a ultima conexão irá sobrepor a anterior. 
-#define TOPIC_SUBSCRIBE "Rmk1"   //Informe um Tópico único. Caso sejam usados tópicos em duplicidade, o último irá eliminar o anterior.
+#define ID_MQTT  "XXXXX"             //Informe um ID unico e seu. Caso sejam usados IDs repetidos a ultima conexão irá sobrepor a anterior. 
+#define TOPIC_SUBSCRIBE "XXXXX"   //Informe um Tópico único. Caso sejam usados tópicos em duplicidade, o último irá eliminar o anterior.
 PubSubClient MQTT(wifiClient);        // Instancia o Cliente MQTT passando o objeto espClient
 
 
